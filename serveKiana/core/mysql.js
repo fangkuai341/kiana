@@ -1,12 +1,4 @@
 const mysql = require('mysql');
-//有网
-let pool = mysql.createPool({
-    host: '124.221.216.199',
-    port: 3306,
-    user: 'root',
-    password: '38f6a5bda2012c06',
-    database: 'kiana'
-})
 //无网
 // let pool = mysql.createPool({
 //     host: '127.0.0.1',
